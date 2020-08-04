@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+}
+
+p{
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+
+#logo{
+    cursor: pointer; /* this turns cursor into pointer, when uyou decide to make logo */
+}
+
+a{
+    color: white;
+    cursor: pointer;
+
+}
+
+a:hover {
+    color: lightgray;
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+#logIn{
+
+    padding: 9px 25px;
+    border:none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+    font-size: large;
+    font-family:'IBM Plex Sans', sans-serif;
+}
+
+.firstPage{
+display: flex;
+text-align: center;
+flex-direction: column;
+background-image:url(/projects/projectImages/static/huluBackground.jpg);
+
+}
+
+.greenText{
+    color:#1CE783;
+}
+
+.whiteText{
+    color:white
+}
+
+
+#try{
+    font-family:'IBM Plex Sans', sans-serif;
+}
+
+#hulu{
+    font-size: 8rem;
+    font-family: 'Maven Pro', sans-serif;
+    top: 5em;
+}
+
+/*#freeTrial{
+ opacity: .5;
+
+
+}*/
+
+#freeTrial{
+    background-color:white;
+    border-radius: 15%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#companyLogos{
+    height: 5rem;
+    width: 19rem;
+}
+
+.firstPageBanner{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
