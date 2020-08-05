@@ -17,7 +17,7 @@ header{
     cursor: pointer; /* this turns cursor into pointer, when uyou decide to make logo */
 }
 
-a{
+.log{
     color: white;
     cursor: pointer;
 
@@ -39,15 +39,17 @@ a:link{
     border-radius: 50px;
     cursor:pointer;
     transition: all 0.3s ease 0s;
-    font-size: large;
+    font-weight: bold;
     font-family:'IBM Plex Sans', sans-serif;
+    font-size: smaller;
 }
 
 .firstPage{
 display: flex;
 text-align: center;
 flex-direction: column;
-background-image:url(/projects/projectImages/static/huluBackground.jpg);
+background-image:url('./huluBackground.jpg');
+background-size: cover;
 
 }
 
@@ -62,29 +64,56 @@ background-image:url(/projects/projectImages/static/huluBackground.jpg);
 
 #try{
     font-family:'IBM Plex Sans', sans-serif;
+    margin-bottom: 0rem;
+    margin-top: 4rem;
 }
 
 #hulu{
     font-size: 8rem;
     font-family: 'Maven Pro', sans-serif;
     top: 5em;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
 }
 
-/*#freeTrial{
- opacity: .5;
+#watchThousands{
+    font-family: 'Recursive', sans-serif;
+    font-size: x-large;
+    margin-top: 0rem;
+}
 
-
-}*/
 
 #freeTrial{
     background-color:white;
-    border-radius: 15%;
+    border-radius: 10px;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
+    
+}
+
+#freeTrial:hover{
+    opacity: 75%;
+}
+
+#freeTrialButton{
+color: black;
+}
+
+#freeTrialButton:hover{
+    opacity: 75%;
+    text-decoration: none;
+
+}
+
+#freeEligible{
+    font-size: x-small;
+    opacity: 75%;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
 }
 
 #companyLogos{
@@ -95,7 +124,99 @@ background-image:url(/projects/projectImages/static/huluBackground.jpg);
 .firstPageBanner{
     display: flex;
     justify-content: space-between;
-    text-align: center;
+    text-align: left;
+    border: 2px solid #0d3e4d;
+    background-color: #0d3e4d; 
+  
 }
 
+
+.left{
+    padding-left: 3.5vh;
+    padding-top: 3vh;
+}
+
+.middle{
+    margin-right: 16rem;
+}
+
+#bundleSave{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: .75rem;
+    opacity: 80%;
+    margin-bottom: 0rem;
+}
+
+#getHulu{
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.5rem;
+    margin-top: .5rem;
+    margin-bottom: 0rem;
+}
+
+#moreDetails{
+    color: white;
+    opacity: 75%;
+    text-decoration: underline;
+    margin-top: 0rem;
+}
+
+#moreDetails:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+#moreDetailsParagraph{
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
+
+.right{
+padding-right: 0;
+}
+
+#getBundle{
+    border: 2px solid white;
+    background-color: #0d3e4d;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 2.75rem;
+    margin-top: 3rem;
+   
+}
+
+#getBundle:hover{
+    text-decoration: none;
+}
+
+#termsApply{
+    font-size: x-small;
+    text-decoration: underline;
+    opacity: 70%;
+    margin-left: 2.25rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+}
+
+#termsApplyParagraph{
+    margin-right: 0rem;
+    margin-top: 0rem;
+}
+
+#termsApply:hover{
+    color:white;
+    
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
 
