@@ -215,8 +215,14 @@ padding-right: 0;
 
 .second{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     overflow: hidden;
+}
+
+#secondImage{
+    display: inline-block;;
+    max-width: 100%;
+    max-height: 100%;
 }
 
